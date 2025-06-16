@@ -9,6 +9,7 @@ nav{
     top: 0;
     background-color: white;
     opacity: 1;
+    z-index: 999;
 }
 .logo{
     margin-top: 10px;
@@ -74,6 +75,7 @@ li{
     border-radius: 8px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
 }
 .save-the-date h5{
     position: relative;
@@ -360,3 +362,194 @@ textarea{
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
 }
+.git-heading h2{
+    position: relative;
+    color: #f1c522;
+    left: 700px;
+    font-size: 50px;
+}
+.git-heading i{
+    position: relative;
+    bottom: 30px;
+    left: 630px;
+    color: orangered;
+    font-size: 25px;
+}
+.git-heading-i{
+    position: relative;
+    left: 140px;
+}
+.git-heading{
+    position: relative;
+    right: 50px;
+}
+.address{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.address-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    right: 200px;
+    
+}
+.address-container h4{
+    position: relative;
+    font-size: 30px;
+}
+.address-container p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(0, 0, 0, 0.486);
+    font-size: 20px;
+}
+.address-container1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    right: 40px;
+    
+}
+.address-container1 h4{
+    position: relative;
+    font-size: 30px;
+}
+.address-container1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(0, 0, 0, 0.486);
+    font-size: 20px;
+}
+.address-container1 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.486);
+}
+.address-container2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    left: 100px;
+    
+}
+
+.address-container2 h4{
+    position: relative;
+    font-size: 30px;
+    bottom: 25px;
+}
+.git-icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    align-items: center;
+}
+.git-icon i{
+    background-color: #f1c522;
+    padding: 7px;
+    padding-left: 12px;
+    border-radius: 40px;
+    width: 20px;
+    height: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(weddingTemplate-media/young-asian-pregnant-couple-using-laptop.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+}
+.tabs-container{
+    display: flex;
+}
+.tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .tabs a {
+      padding: 10px 20px;
+      background: lightgray;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px 5px 0 0;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .tabs a:hover,
+    .tabs a:focus {
+      background-color: pink;
+    }
+
+    /* Highlight the active tab using :target */
+    .tabs a.active-tab {
+      background-color: pink;
+    }
+
+    .groomside{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .groomside-text{
+        width: 700px;
+        
+    }
+    .groomside-text h4{
+        font-size: 20px;
+    }
+    .groomside-text p{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .gromside-content1{
+        display: flex;
+    }
+
+    .groomside-content-img{
+        width: 600px;
+        height: 400px;
+    }
+    .brideside{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .brideside-text{
+        width: 700px;
+        
+    }
+    .brideside-text h4{
+        font-size: 20px;
+    }
+    .brideside-text p{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .brideside-content1{
+        display: flex;
+    }
+
+    .brideside-content-img{
+        width: 600px;
+        height: 400px;
+    }
